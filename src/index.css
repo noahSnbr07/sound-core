@@ -1,0 +1,37 @@
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+
+:root {
+  @apply text-base;
+  @apply font-regular;
+  user-select: none;
+  -webkit-user-drag: none;
+  overscroll-behavior: none;
+}
+
+* {
+  @apply m-0;
+  @apply p-0;
+  @apply box-border;
+}
+
+@font-face {
+  font-family: 'regular';
+  src: url('./assets/fonts/Inter_18pt-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'bold';
+  src: url('./assets/fonts/Inter_18pt-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'black';
+  src: url('./assets/fonts/Inter_18pt-Black.ttf');
+}
+
+@font-face {
+  font-family: 'italic';
+  src: url('./assets/fonts/Inter_18pt-Italic.ttf');
+}

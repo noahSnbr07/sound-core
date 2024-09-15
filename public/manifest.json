@@ -1,0 +1,19 @@
+{
+   "short_name": "SoundCore",
+   "name": "SoundCore",
+   "id": "/?source=pwa",
+   "start_url": "/?source=pwa",
+   "background_color": "#0D101A",
+   "display": "standalone",
+   "scope": "/",
+   "orientation": "portrait",
+   "theme_color": "#0D101A",
+   "description": "Find your Track",
+   "icons": [
+      {
+         "src": "../src/assets/images/Favicon144.png",
+         "type": "image/png",
+         "sizes": "144x144"
+      }
+   ]
+}
